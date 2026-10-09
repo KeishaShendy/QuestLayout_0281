@@ -24,3 +24,22 @@ import androidx.compose.ui.text.font.FontFamily
 import androidx.compose.ui.text.font.FontWeight
 import androidx.compose.ui.unit.dp
 import androidx.compose.ui.unit.sp
+
+class Act3 {
+}
+@Composable
+fun AktivitasPertama(modifier: Modifier) {
+    Column(
+        modifier = Modifier.padding(top = 100.dp)
+            .fillMaxSize(),
+        horizontalAlignment = Alignment.CenterHorizontally
+    ) {
+    Text(
+        text = stringResource(id = R.string.prodi),
+        fontSize = 35.sp,
+        fontWeight = FontWeight.Bold
+    )
+    Text(
+        text = stringResource(id = R.string.univ),
+        fontSize = 22.sp
+    )
