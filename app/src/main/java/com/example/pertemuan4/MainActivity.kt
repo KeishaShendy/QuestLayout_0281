@@ -12,3 +12,7 @@ import com.example.pertemuan4.ui.theme.Pertemuan4Theme
 
 class MainActivity : ComponentActivity() {
     override fun onCreate(savedInstanceState: Bundle?) {
+        super.onCreate(savedInstanceState)
+        enableEdgeToEdge()
+        setContent {
+            Pertemuan4Theme {
